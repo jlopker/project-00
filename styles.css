@@ -1,0 +1,36 @@
+/*makes sure there is no margin on the page*/
+html, body{
+  margin: 0;
+}
+/*centers the header and gives qtext, font, color*/
+h1{
+  margin: 0;
+  text-align: center;
+}
+/*styling what the header will look like and how big it will be*/
+.header{
+  height: 100px;
+  background-color: lightgrey;
+}
+/*styling the footer with my name*/
+.footer{
+  height: 100px;
+  background-color: lightgrey;
+  text-align: center;
+  font-family: garamond;
+  font-size: 22px;
+}
+/*the first race track for player 1*/
+.rowOne{
+  height: 100px;
+  background-color: cornflowerblue;
+}
+/*the second race track for player 2*/
+.rowTwo{
+  height: 100px;
+  background-color: purple;
+}
+/*held spaces with divs between racetracks*/
+.spacer{
+  height: 100px;
+}

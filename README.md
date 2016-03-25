@@ -4,16 +4,22 @@ Racing Game
 The objective of this game is for both players to tap a designated button on the keyboard which propels their player forward. The first player to reach the finish line is declared the winner.
 
 Technologies Used
-
-What technologies did you use to develop this project? (bullet points)
+* Terminal
+  * bash
+* Git
+* JavaScript
+  * jQuery
+* HTML
+* CSS
 
 Existing Features
-
-What features does your racing game have? (bullet points)
+* Objective button to learn how to play the game
+* Two players
+* One race track
 
 Planned Features
-
-What changes would you make to your project if you continue to work on it? (bullet points)
+* A round race track instead of a straight one
+* A 'celebrate winner' design that isn't an alert()
 
 Screenshot (optional)
 
