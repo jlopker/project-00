@@ -1,6 +1,8 @@
 # project-00
-First WDI project
-Racing Game
+This is my first WDI project
+
+Title: Racing Game
+
 The objective of this game is for both players to tap a designated button on the keyboard which propels their player forward. The first player to reach the finish line is declared the winner.
 
 Technologies Used
