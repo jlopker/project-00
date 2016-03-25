@@ -23,6 +23,7 @@ Planned Features
 * A round race track instead of a straight one
 * A 'celebrate winner' design that isn't an alert()
 
-Screenshot (optional)
+Screenshot:
+![Alt text](firstRaceScreenShot.png?raw=true "RaceDay")
 
 https://github.com/eamoses/project-00
