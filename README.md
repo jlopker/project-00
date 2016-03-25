@@ -23,4 +23,4 @@ Planned Features
 
 Screenshot (optional)
 
-Link to hosted project on GitHub pages or BitBalloon (optional)
+https://github.com/eamoses/project-00
