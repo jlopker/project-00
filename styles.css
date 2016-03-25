@@ -21,6 +21,29 @@ header{
   position: absolute;
   top: 10%;
 }
+/*****HIDES CLOSE BUTTON FOR THE OBJECTIVE POPUP*****/
+.hidden {
+  visibility: hidden;
+}
+/*****POPUP PANEL STYLES*****/
+.popup{
+  font-family: Garamond;
+  position: absolute;
+  width: 575px;
+  height: 500px;
+  color:black;
+  background-color:rgba(255,255,255,.8);
+  border: 20px solid grey;
+  border-radius: 25px;
+  font-family: arial;
+  font-size: 16px;
+  z-index:100000000000000000;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.5px;
+}
 /*styling the footer with my name*/
 .footer{
   height: 100px;
@@ -33,11 +56,21 @@ header{
 .rowOne{
   height: 100px;
   background-color: cornflowerblue;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+#dashesOne{
+  font-size: 40px;
 }
 /*the second race track for player 2*/
 .rowTwo{
   height: 100px;
   background-color: purple;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+#dashesTwo{
+  font-size: 40px;
 }
 /*held spaces with divs between racetracks*/
 .spacer{
