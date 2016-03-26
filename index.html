@@ -7,9 +7,9 @@
   <!-- set viewport to device width to help make site responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>RACE DAY!</title>
+  <title>Typeface Race!</title>
   <!-- tab icon -->
-  <link rel="shortcut icon" href="icon.png"/>
+  <link rel="shortcut icon" href="images/icon.png"/>
 
   <!-- bootstrap css -->
   <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -29,7 +29,7 @@
 <body>
   <!-- header will hold the name of the game, objective button and replay button -->
   <header class = "header">
-    <h1>Typeface Race Day!</h1>
+    <h1>Typeface Race!</h1>
     <div class = "buttonPanel">
     <button name = "button" class = "objective">Objective</button>
     <button name = "button" class = "replay">New Game</button>
@@ -38,29 +38,27 @@
             <button name = "button" class = "close">Close</button>
               <h2>
                 <p>OBJECTIVE:</p>
-                <br>
+                <br><p>Welcome to the Typeface Race!</p>
                 <p>Who will win: Garamond or Avenir? <br>Press the A key to move Avenir forward, and press the G key to move Garamond. The first one to the finish line WINS!</p>
-                <br>
                 <p>GOOD LUCK!</p>
               </h2>
         </div>
     </div>
   </div>
-  </header>
-  <!-- following divs hold the racetrack -->
-<svg viewbox = "0  0 1300 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <!-- <rect x=10% y=10% width=50% height=25% fill="red"/> -->
-  <image xlink:href="fullRaceTrack.svg" id="raceTrack"  x=0 y=0 />
-  <image xlink:href="playerAvenir.svg" id="playerAvenir" x=0% y=22% />
-  <image xlink:href= "playerGaramond.svg" id= "playerGaramond" x=-2% y=52.5% />
-  <image xlink:href="finishLine.png" id="finishLine" alt="finish" x=90% y=22% />
-</svg>
-<!-- the footer -->
+</header>
+  <!-- following SVGs hold the racetrack -->
+  <svg viewbox = "0  0 1300 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- <rect x=10% y=10% width=50% height=25% fill="red"/> -->
+    <image xlink:href="images/fullRaceTrack.svg" id="raceTrack"  x=0 y=0 />
+    <image xlink:href="images/playerAvenir.svg" id="playerAvenir" x=0% y=22% />
+    <image xlink:href= "images/playerGaramond.svg" id= "playerGaramond" x=-2% y=51% />
+    <image xlink:href="images/finishLine.png" id="finishLine" alt="finish" x=90% y=22% />
+  </svg>
+  <!-- the footer -->
   <footer class = "footer">
     <p>
       &copy; 2016 Emily Anne Moses
     </p>
   </footer>
 </body>
-
 </html>

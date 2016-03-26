@@ -15,6 +15,7 @@ header{
   height: 150px;
   background-color: lightgrey;
 }
+/*****STYLING THE SVG FINISH LINE, RACE TRACK AND A AND G PLAYERS*****/
 #finishLine{
   height: 275px;
   width: 100px;
@@ -31,18 +32,13 @@ header{
   width: 96px;
 }
 #playerGaramond{
-  height: 177px;
+  height: 190px;
   width: 150px;
-}
-/*****STYLES WHOLE TRACK*****/
-#entireTrack{
-  height: 500px;
-  width: 95%;
 }
 /*****STYLES THE BUTTONS*****/
 .replay{
   margin-top: 20px;
-  margin-left: 240px;
+  margin-left: 200px;
 }
 .buttonPanel{
   text-align: center;
@@ -50,7 +46,7 @@ header{
 .objective{
   position: absolute;
   margin-top: 20px;
-  margin-left: 75px;
+  margin-left: 65px;
 }
 /*****HIDES CLOSE BUTTON FOR THE OBJECTIVE POPUP*****/
 .hidden {
@@ -61,7 +57,7 @@ header{
   font-family: Garamond;
   position: absolute;
   width: 50%;
-  height: 75%;
+  height: 80%;
   color:black;
   background-color:rgba(255,255,255,.8);
   border: 10px solid grey;
@@ -70,9 +66,9 @@ header{
   z-index:1;
   line-height: 3px;
   margin-left: 25%;
-  padding-top: 30px;
+  padding-top: 10px;
 }
-/*****STYLING NAME ANY COPYRIGHT*****/
+/*****STYLING NAME AND COPYRIGHT*****/
 .footer{
   height: 150px;
   background-color: lightgrey;

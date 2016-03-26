@@ -24,6 +24,6 @@ Planned Features
 * A 'celebrate winner' design that isn't an alert()
 
 Screenshot:
-![Alt text](raceScreenShotforReadme.png?raw=true "RaceDay")
+![Alt text](images/raceScreenShotforReadme.png?raw=true "RaceDay")
 
 https://github.com/eamoses/project-00
