@@ -1,26 +1,23 @@
-/*makes sure there is no margin on the page*/
+/*****REMOVE MARGIN FROM BODY AND HTML DOC*****/
 html, body{
   margin: 0;
 }
-/*centers the header and gives qtext, font, color*/
+/*****STYLE THE HEADER*****/
 h1{
   margin: 0;
   margin-left: 60px;
+  padding-top: 5px;
   text-align: center;
   font-family: garamond;
 }
-/*styling what the header will look like and how big it will be*/
 header{
   height: 100px;
   background-color: lightgrey;
 }
-button{
-  display: inline;
-}
 /*****STYLES THE BUTTONS*****/
 .replay{
   margin-top: 20px;
-  margin-left: 250px;
+  margin-left: 240px;
 }
 .buttonPanel{
   text-align: center;
@@ -51,15 +48,16 @@ button{
   margin:auto;
   padding-top: 30px;
 }
-/*styling the footer with my name*/
+/*****STYLING NAME ANY COPYRIGHT*****/
 .footer{
   height: 100px;
   background-color: lightgrey;
   text-align: center;
   font-family: garamond;
   font-size: 22px;
+  padding-top: 25px;
 }
-/*the first race track for player 1*/
+/*****STYLING TOP RACE TRACK*****/
 .rowOne{
   height: 100px;
   width:900px;
@@ -70,7 +68,7 @@ button{
 #dashesOne{
   font-size: 40px;
 }
-/*the second race track for player 2*/
+/*****STYLE BOTTOM RACE TRACK*****/
 .rowTwo{
   height: 100px;
   width:900px;
@@ -81,7 +79,7 @@ button{
 #dashesTwo{
   font-size: 40px;
 }
-/*held spaces with divs between racetracks*/
+/*****HOLDING SPACE BETWEEN RACE TRACKS*****/
 .spacer{
   height: 85px;
 }
