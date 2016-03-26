@@ -62,6 +62,7 @@ button{
 /*the first race track for player 1*/
 .rowOne{
   height: 100px;
+  width:900px;
   background-color: cornflowerblue;
   border-top: solid black 2px;
   border-bottom: solid black 2px;
@@ -72,7 +73,8 @@ button{
 /*the second race track for player 2*/
 .rowTwo{
   height: 100px;
-  background-color: purple;
+  width:900px;
+  background-color: pink;
   border-top: solid black 2px;
   border-bottom: solid black 2px;
 }
@@ -81,5 +83,5 @@ button{
 }
 /*held spaces with divs between racetracks*/
 .spacer{
-  height: 100px;
+  height: 85px;
 }
