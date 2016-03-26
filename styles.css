@@ -6,13 +6,30 @@ html, body{
 h1{
   margin: 0;
   margin-left: 60px;
-  padding-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 15px;
   text-align: center;
   font-family: garamond;
 }
 header{
-  height: 100px;
+  height: 150px;
   background-color: lightgrey;
+}
+#raceTrack{
+  margin-left: 5%;
+  width: 90%;
+  height: 100%;
+  border-top: solid white 75px;
+  border-bottom: solid white 75px;
+}
+#playerAvenir{
+  height: 90px;
+  width: 96px;
+}
+/*****STYLES WHOLE TRACK*****/
+#entireTrack{
+  height: 500px;
+  width: 95%;
 }
 /*****STYLES THE BUTTONS*****/
 .replay{
@@ -49,38 +66,10 @@ header{
 }
 /*****STYLING NAME ANY COPYRIGHT*****/
 .footer{
-  height: 100px;
+  height: 150px;
   background-color: lightgrey;
   text-align: center;
   font-family: garamond;
   font-size: 22px;
   padding-top: 25px;
-}
-/*****STYLING TOP RACE TRACK*****/
-.rowOne{
-  height: 100px;
-  width: 100%;
-  background-color: cornflowerblue;
-  border-top: solid black 2px;
-  border-bottom: solid black 2px;
-}
-#dashesOne{
-  font-size: 3em;
-  z-index:0;
-}
-/*****STYLE BOTTOM RACE TRACK*****/
-.rowTwo{
-  height: 100px;
-  width:100%;
-  background-color: pink;
-  border-top: solid black 2px;
-  border-bottom: solid black 2px;
-}
-#dashesTwo{
-  font-size: 3em;
-  z-index:0;
-}
-/*****HOLDING SPACE BETWEEN RACE TRACKS*****/
-.spacer{
-  height: 85px;
 }
