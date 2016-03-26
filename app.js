@@ -10,4 +10,8 @@ $(document).on('ready', function() {
     $("div.col-md-6.col-md-offset-3.popup").addClass("hidden"); //makes popup go hidden again so you can play the game
   });
 
+  $("button.replay").on("click", function(){ //onclick telling the button, when clicked, to reload the page for a new game
+    location.reload();
+  });
+
 });

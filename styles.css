@@ -14,12 +14,21 @@ header{
   height: 100px;
   background-color: lightgrey;
 }
+button{
+  display: inline;
+}
+/*****STYLES THE BUTTONS*****/
+.replay{
+  margin-top: 20px;
+  margin-left: 250px;
+}
 .buttonPanel{
   text-align: center;
 }
 .objective{
   position: absolute;
-  top: 10%;
+  margin-top: 20px;
+  margin-left: 75px;
 }
 /*****HIDES CLOSE BUTTON FOR THE OBJECTIVE POPUP*****/
 .hidden {
@@ -28,21 +37,19 @@ header{
 /*****POPUP PANEL STYLES*****/
 .popup{
   font-family: Garamond;
-  position: absolute;
-  width: 575px;
+  position: relative;
+  text-align: center;
+  width: 600px;
   height: 500px;
   color:black;
   background-color:rgba(255,255,255,.8);
-  border: 20px solid grey;
+  border: 10px solid grey;
   border-radius: 25px;
-  font-family: arial;
-  font-size: 16px;
-  z-index:100000000000000000;
-  margin-top: 10px;
-  padding-top: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
-  line-height: 1.5px;
+  font-size: 14px;
+  z-index:1;
+  line-height: 3px;
+  margin:auto;
+  padding-top: 30px;
 }
 /*styling the footer with my name*/
 .footer{
