@@ -9,13 +9,15 @@ Technologies Used
 * Terminal
   * bash
 * Git
+  * GitHub
 * JavaScript
   * jQuery
-* HTML
-* CSS
+* HTML5
+* CSS3
 
 Existing Features
 * Objective button to learn how to play the game
+* New Game button to re-play the game
 * Two players
 * One race track
 
