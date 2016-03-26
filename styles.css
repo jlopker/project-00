@@ -30,6 +30,10 @@ header{
   height: 90px;
   width: 96px;
 }
+#playerGaramond{
+  height: 177px;
+  width: 150px;
+}
 /*****STYLES WHOLE TRACK*****/
 #entireTrack{
   height: 500px;
