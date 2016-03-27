@@ -11,7 +11,7 @@ $(document).on('ready', function() {
 //***GRABS SVG A OR G AND ATTRIBUTES X AXIS LOCATION TO ITS INDIVIDUAL PERCENTAGE ON THE STARTING LINE***/
 $aLocation.attr('x', aLocation + '%');
 $gLocation.attr('x', gLocation + '%');
-//***UNPOPULATED CONSTRUCTOR A IS 65 FOR KEYCODE AND G IS 71 FOR KEYCODE**//
+//***A IS 65 FOR KEYCODE AND G IS 71 FOR KEYCODE**//
 $('body').keydown(function(event) {
   if(event.keyCode === 65 && !winner){ //WHEN A IS PRESSED AND WINNER IS false, IT WILL MOVE ACROSS THE PAGE
     $aLocation.attr('x', aLocation + '%');
