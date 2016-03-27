@@ -23,7 +23,7 @@ Existing Features
 
 Planned Features
 * A round race track instead of a straight one
-* A 'celebrate winner' design that isn't an alert()
+* Using at least one constructor considering I'm not sure how to implement one right now without making the code unnecessarily long.
 
 Screenshot:
 ![Alt text](images/raceScreenShotforReadme.png?raw=true "RaceDay")

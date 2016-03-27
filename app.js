@@ -20,29 +20,29 @@ $('body').keydown(function(event) {
     aLocation++;
     if(aLocation === winAvenirLocation){
       winner = 'Avenir';
-      
-      var congrats = document.createElement("image");
-      congrats.className = "avenirWins";
-      congrats.appendChild(document.createTextNode("AVENIR WINS!"));
-      raceTrack.appendChild(congrats);
+      $('div.someoneWins').removeClass("hidden");
+      $('h2.addText').html("<p>CONGRATULATIONS!</p><p>AVENIR WINS!</p><p>Close this window and click New Game to play again!</p>");
     }
-    console.log(aLocation);
   }else if(event.keyCode === 71 && winner === 'none'){
-    $gLocation.attr('x', gLocation + '%');
-    gLocation++;
-    if(gLocation === winGaramondLocation){
-      winner = 'Garamond';
-      alert(winner +' Wins!');
-  }
-  console.log(gLocation);
-}
+      $gLocation.attr('x', gLocation + '%');
+      gLocation++;
+      if(gLocation === winGaramondLocation){
+        winner = 'Garamond';
+        $('div.someoneWins').removeClass("hidden");
+        $('h2.addText').html("<p>CONGRATULATIONS!</p><p>GARAMOND WINS!</p><p>Close this window and click New Game to play again!</p>");
+      }
+    }
 });
+  // console.log(gLocation);
 //***OBJECTIVE BUTTON FUNCTIONALITY***//
   $("button.objective").on("click", function(){
     $("div.col-md-6.col-md-offset-3.popup.hidden").removeClass("hidden");//opens popup to explain objective
   });
   $("button.close").on("click", function(){
     $("div.col-md-6.col-md-offset-3.popup").addClass("hidden"); //makes popup go hidden again so you can play the game
+  });
+  $('button.winClose').on('click', function(){
+    $('div.someoneWins').addClass('hidden');//closes winning popup box
   });
   $("button.replay").on("click", function(){ //onclick telling the button, when clicked, to reload the page for a new game
     location.reload();

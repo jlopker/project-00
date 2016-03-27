@@ -39,12 +39,21 @@ header{
   height: 190px;
   width: 150px;
 }
-.avenirWins {
-  z-index: 1000000000000;
-  font-family: fantasy;
-  font-size: 40px;
+.someoneWins {
+  text-align: center;
+  font-family: Garamond;
+  position: absolute;
+  width: 60%;
+  height: 50%;
   color: gold;
-  text-shadow: 1px 1px black;
+  background-color:rgba(255,255,255,.8);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  border: 10px solid grey;
+  border-radius: 25px;
+  font-size: 14px;
+  z-index:1;
+  margin-left: 25%;
+  padding-left: 10px;
 }
 /*****STYLES THE BUTTONS*****/
 .replay{
@@ -62,6 +71,14 @@ header{
 /*****HIDES CLOSE BUTTON FOR THE OBJECTIVE POPUP*****/
 .hidden {
   visibility: hidden;
+}
+.close{
+  width: 75px;
+  color: darkgrey;
+}
+.winClose{
+  width: 75px;
+  color: darkgrey;
 }
 /*****POPUP PANEL STYLES*****/
 .popup{
