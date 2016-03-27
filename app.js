@@ -3,27 +3,29 @@ console.log("App.js is running!");
 
 $(document).on('ready', function() {
 //***PULL THE IDS FROM HTML AND MAKE A VARIABLE TO SET AND TO CALL TO THEIR X-AXIS LOCATION***/
-  var $gLocation = $("#playerGaramond");
   var $aLocation = $("#playerAvenir");
+  var aLocation = 0;
+  var $gLocation = $("#playerGaramond");
+  var gLocation = -2;
 //***GRABS SVG A OR G AND ATTRIBUTES X AXIS LOCATION TO ITS INDIVIDUAL PERCENTAGE ON THE STARTING LINE***/
 /***THE EXACT PERCENTAGE SET TO IS DEPENDENT ON THE SIZE OF THE SVG WE ARE ANIMATING SO THEY APPEAR EQUAL ON THE PAGE***/
-  $gLocation.attr('x', -3 + '%');
-  $aLocation.attr('x', 0 + '%');
-
-
-
-//***UNPOPULATED CONSTRUCTOR***//
-function Game(){
-
-}
+  $aLocation.attr('x', aLocation + '%');
+  $gLocation.attr('x', gLocation + '%');
+//***UNPOPULATED CONSTRUCTOR*/a IS 65 FOR KEYCODE AND G IS 71 FOR KEYCODE**//
+$('body').keydown(function(event) {
+  if(event.keyCode === 65) {
+    $aLocation.attr('x', aLocation + '%');
+    aLocation++;
+  }
+});
 
 //***THEORETICALLY: WILL ALERT WHEN THE WINNING PLAYER REACHES THE FINISH LINE***//
-  Game.prototype.winner = function(){
-    if (avenir === $aLocation.attr('x', 95 +'%') || garamond === $gLocation.attr('x', 95 +'%')) {
-      alert(this + ' WINS!');
-      console.log(this);
-    }
-  };
+  // Game.prototype.winner = function(){
+  //   if (avenir === $aLocation.attr('x', 95 +'%') || garamond === $gLocation.attr('x', 95 +'%')) {
+  //     alert(this + ' WINS!');
+  //     console.log(this);
+  //   }
+  // };
 
 //***OBJECTIVE BUTTON FUNCTIONALITY***//
   $("button.objective").on("click", function(){
