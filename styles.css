@@ -39,6 +39,13 @@ header{
   height: 190px;
   width: 150px;
 }
+.avenirWins {
+  z-index: 1000000000000;
+  font-family: fantasy;
+  font-size: 40px;
+  color: gold;
+  text-shadow: 1px 1px black;
+}
 /*****STYLES THE BUTTONS*****/
 .replay{
   margin-top: 20px;
