@@ -23,6 +23,7 @@ Existing Features
 
 Planned Features
 * A round race track instead of a straight one
+* Using bootstrap more to organize the items on the page instead of styling margins in CSS
 * Using at least one constructor considering I'm not sure how to implement one right now without making the code unnecessarily long.
 
 Screenshot:
